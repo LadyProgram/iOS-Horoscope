@@ -6,10 +6,12 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
+class ListViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-
+    
+    var horoscopeList = Horoscope.getAll()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,11 +19,11 @@ class ListViewController: UIViewController {
         tableView.dataSource = self
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowaInsection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return horoscopeList.count
     }
     
-    func tableView(_ tableView: UITable, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HoroscopeViewCell
         let horoscope = horoscopeList[indexPath.row]
         cell.render(horoscope: horoscope)
