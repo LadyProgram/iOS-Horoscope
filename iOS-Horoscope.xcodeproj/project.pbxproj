@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6CEB0E192DD1EC5C00406E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEB0DFA2DD1EC5A00406E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEB0E012DD1EC5A00406E53;
+			remoteInfo = "iOS-Horoscope";
+		};
+		6CEB0E232DD1EC5C00406E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEB0DFA2DD1EC5A00406E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEB0E012DD1EC5A00406E53;
+			remoteInfo = "iOS-Horoscope";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CEB0E022DD1EC5A00406E53 /* iOS-Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Horoscope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEB0E182DD1EC5C00406E53 /* iOS-HoroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-HoroscopeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEB0E222DD1EC5C00406E53 /* iOS-HoroscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-HoroscopeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6CEB0E2A2DD1EC5C00406E53 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6CEB0E042DD1EC5A00406E53 /* iOS-Horoscope */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6CEB0E2A2DD1EC5C00406E53 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */,
+			);
+			path = "iOS-Horoscope";
+			sourceTree = "<group>";
+		};
+		6CEB0E1B2DD1EC5C00406E53 /* iOS-HoroscopeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-HoroscopeTests";
+			sourceTree = "<group>";
+		};
+		6CEB0E252DD1EC5C00406E53 /* iOS-HoroscopeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-HoroscopeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEB0DFF2DD1EC5A00406E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E152DD1EC5C00406E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E1F2DD1EC5C00406E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CEB0DF92DD1EC5A00406E53 = {
+			isa = PBXGroup;
+			children = (
+				6CEB0E042DD1EC5A00406E53 /* iOS-Horoscope */,
+				6CEB0E1B2DD1EC5C00406E53 /* iOS-HoroscopeTests */,
+				6CEB0E252DD1EC5C00406E53 /* iOS-HoroscopeUITests */,
+				6CEB0E032DD1EC5A00406E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CEB0E032DD1EC5A00406E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB0E022DD1EC5A00406E53 /* iOS-Horoscope.app */,
+				6CEB0E182DD1EC5C00406E53 /* iOS-HoroscopeTests.xctest */,
+				6CEB0E222DD1EC5C00406E53 /* iOS-HoroscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEB0E2B2DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-Horoscope" */;
+			buildPhases = (
+				6CEB0DFE2DD1EC5A00406E53 /* Sources */,
+				6CEB0DFF2DD1EC5A00406E53 /* Frameworks */,
+				6CEB0E002DD1EC5A00406E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6CEB0E042DD1EC5A00406E53 /* iOS-Horoscope */,
+			);
+			name = "iOS-Horoscope";
+			packageProductDependencies = (
+			);
+			productName = "iOS-Horoscope";
+			productReference = 6CEB0E022DD1EC5A00406E53 /* iOS-Horoscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CEB0E172DD1EC5C00406E53 /* iOS-HoroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEB0E302DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-HoroscopeTests" */;
+			buildPhases = (
+				6CEB0E142DD1EC5C00406E53 /* Sources */,
+				6CEB0E152DD1EC5C00406E53 /* Frameworks */,
+				6CEB0E162DD1EC5C00406E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEB0E1A2DD1EC5C00406E53 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6CEB0E1B2DD1EC5C00406E53 /* iOS-HoroscopeTests */,
+			);
+			name = "iOS-HoroscopeTests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-HoroscopeTests";
+			productReference = 6CEB0E182DD1EC5C00406E53 /* iOS-HoroscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CEB0E212DD1EC5C00406E53 /* iOS-HoroscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEB0E332DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-HoroscopeUITests" */;
+			buildPhases = (
+				6CEB0E1E2DD1EC5C00406E53 /* Sources */,
+				6CEB0E1F2DD1EC5C00406E53 /* Frameworks */,
+				6CEB0E202DD1EC5C00406E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEB0E242DD1EC5C00406E53 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6CEB0E252DD1EC5C00406E53 /* iOS-HoroscopeUITests */,
+			);
+			name = "iOS-HoroscopeUITests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-HoroscopeUITests";
+			productReference = 6CEB0E222DD1EC5C00406E53 /* iOS-HoroscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CEB0DFA2DD1EC5A00406E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6CEB0E012DD1EC5A00406E53 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6CEB0E172DD1EC5C00406E53 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6CEB0E012DD1EC5A00406E53;
+					};
+					6CEB0E212DD1EC5C00406E53 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6CEB0E012DD1EC5A00406E53;
+					};
+				};
+			};
+			buildConfigurationList = 6CEB0DFD2DD1EC5A00406E53 /* Build configuration list for PBXProject "iOS-Horoscope" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CEB0DF92DD1EC5A00406E53;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6CEB0E032DD1EC5A00406E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */,
+				6CEB0E172DD1EC5C00406E53 /* iOS-HoroscopeTests */,
+				6CEB0E212DD1EC5C00406E53 /* iOS-HoroscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CEB0E002DD1EC5A00406E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E162DD1EC5C00406E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E202DD1EC5C00406E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CEB0DFE2DD1EC5A00406E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E142DD1EC5C00406E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEB0E1E2DD1EC5C00406E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CEB0E1A2DD1EC5C00406E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */;
+			targetProxy = 6CEB0E192DD1EC5C00406E53 /* PBXContainerItemProxy */;
+		};
+		6CEB0E242DD1EC5C00406E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */;
+			targetProxy = 6CEB0E232DD1EC5C00406E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CEB0E2C2DD1EC5C00406E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Horoscope/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-Horoscope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CEB0E2D2DD1EC5C00406E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Horoscope/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-Horoscope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CEB0E2E2DD1EC5C00406E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CEB0E2F2DD1EC5C00406E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CEB0E312DD1EC5C00406E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-HoroscopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Horoscope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Horoscope";
+			};
+			name = Debug;
+		};
+		6CEB0E322DD1EC5C00406E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-HoroscopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Horoscope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Horoscope";
+			};
+			name = Release;
+		};
+		6CEB0E342DD1EC5C00406E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-HoroscopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Horoscope";
+			};
+			name = Debug;
+		};
+		6CEB0E352DD1EC5C00406E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladyprogram.iOS-HoroscopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Horoscope";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CEB0DFD2DD1EC5A00406E53 /* Build configuration list for PBXProject "iOS-Horoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB0E2E2DD1EC5C00406E53 /* Debug */,
+				6CEB0E2F2DD1EC5C00406E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEB0E2B2DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-Horoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB0E2C2DD1EC5C00406E53 /* Debug */,
+				6CEB0E2D2DD1EC5C00406E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEB0E302DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-HoroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB0E312DD1EC5C00406E53 /* Debug */,
+				6CEB0E322DD1EC5C00406E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEB0E332DD1EC5C00406E53 /* Build configuration list for PBXNativeTarget "iOS-HoroscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB0E342DD1EC5C00406E53 /* Debug */,
+				6CEB0E352DD1EC5C00406E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CEB0DFA2DD1EC5A00406E53 /* Project object */;
+}
