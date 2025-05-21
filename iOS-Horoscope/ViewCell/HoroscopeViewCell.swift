@@ -12,11 +12,14 @@ class HoroscopeViewCell: UITableViewCell {
     @IBOutlet weak var signImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var favoriteImageView: UIImageView!
+    
     
     func render(horoscope: Horoscope) {
         nameLabel.text =  horoscope.name
         dateLabel.text = horoscope.date
         signImageView.image = horoscope.image
+        favoriteImageView.isHidden = !SessionManager().isFavorite(id: horoscope.id)
     }
     
     

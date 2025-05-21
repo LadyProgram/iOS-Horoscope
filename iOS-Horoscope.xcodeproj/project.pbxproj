@@ -30,10 +30,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6CEB0E2A2DD1EC5C00406E53 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */ = {
+		6C9FBDAD2DDDC19E00AA7124 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Utils/Info.plist,
 			);
 			target = 6CEB0E012DD1EC5A00406E53 /* iOS-Horoscope */;
 		};
@@ -43,7 +43,7 @@
 		6CEB0E042DD1EC5A00406E53 /* iOS-Horoscope */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				6CEB0E2A2DD1EC5C00406E53 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */,
+				6C9FBDAD2DDDC19E00AA7124 /* Exceptions for "iOS-Horoscope" folder in "iOS-Horoscope" target */,
 			);
 			path = "iOS-Horoscope";
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Horoscope/Info.plist";
+				INFOPLIST_FILE = "iOS-Horoscope/Utils/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Horoscope/Info.plist";
+				INFOPLIST_FILE = "iOS-Horoscope/Utils/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
